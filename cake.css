@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    /* border: 5px solid red; */
+    display: flex;
+    overflow: hidden;
+    /* flex-wrap: wrap;    */
+}
+header > div{
+    width: 25%;
+}
+
+header > div > img:hover{
+    transform: scale(1.01);
+    transition: 0.3s ease-in-out;
+    
+}
