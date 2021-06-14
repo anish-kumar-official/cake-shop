@@ -6,14 +6,74 @@ header{
     /* border: 5px solid red; */
     display: flex;
     overflow: hidden;
+    position: relative;
     /* flex-wrap: wrap;    */
 }
 header > div{
     width: 25%;
 }
 
-header > div > img:hover{
+header.div:hover{
     transform: scale(1.01);
     transition: 0.3s ease-in-out;
-    
+}
+nav{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 10%;
+    background-color:white;
+    color: black;
+    padding: 25px;
+    position: absolute;
+    z-index: 1;
+    width: 80%;
+}
+.nav1{
+    position:absolute;
+    z-index: 2;
+    background-color: rgb(167, 164, 164);
+    width: 83.5%;
+    height: 40px;
+    margin-left: 10%;
+    /* margin-top: 200px; */
+    display: flex;
+    margin-top: 290px;
+    text-align: center;
+    text-transform: uppercase;
+    justify-content: center;
+    padding: 5px;
+    font-size: 1.75rem;
+    padding-top: 12px;
+}
+nav > div{
+    list-style: none;
+    margin:30px 10px;
+}
+.name{
+
+    font-size: 3rem;
+    margin-top: 0;
+    margin-left: 40px;
+}
+.m1{
+    justify-content: center;
+    margin-right: 100px;
+}
+.m2{
+    margin-right: 100px;
+}
+.join{
+    font-size: 1rem;
+    text-align: center;
+}
+#tea{
+    font-size: 1.5rem;
+    justify-content: center;
+}
+#gift{
+     text-align: center;
+}
+#vou{
+    text-align: center;
+    font-size: 1.5rem;
 }
